@@ -14,7 +14,7 @@
 
 class Robot : public frc::TimedRobot {
 
-  static constexpr auto i2cPort = frc::I2C::Port::kOnboard;
+  static constexpr auto i2cPort = frc::I2C::Port::kMXP;
 
   rev::ColorSensorV3 m_colorSensor{i2cPort};
 
